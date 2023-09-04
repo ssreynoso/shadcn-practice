@@ -3,7 +3,7 @@ import { BellIcon, CheckIcon } from '@radix-ui/react-icons'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Switch } from '@/components/ui/switch'
-const AlertPage = () => {
+const CardPage = () => {
     const code = `<Card className='w-full'>
     <CardHeader>
         <CardTitle>Notifications</CardTitle>
@@ -102,4 +102,4 @@ const AlertPage = () => {
     )
 }
 
-export default AlertPage
+export default CardPage
