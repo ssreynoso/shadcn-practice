@@ -250,7 +250,7 @@ function ComboboxForm() {
                                         </Button>
                                     </FormControl>
                                 </PopoverTrigger>
-                                <PopoverContent className="w-[200px] p-0" side='right' align='start'>
+                                <PopoverContent className="w-[200px] p-0" side="right" align="start">
                                     <Command>
                                         <CommandInput placeholder="Search framework..." className="h-9" />
                                         <CommandEmpty>No framework found.</CommandEmpty>
@@ -292,6 +292,13 @@ const ComboboxPage = () => {
         <main className="flex gap-8 h-full">
             <section className="w-1/2 max-h-full">
                 <h1 className="text-4xl mb-2">Combo box page</h1>
+                <p>
+                    El popover es como un contenedor que se abre al lado del contenedor padre
+                </p>
+                <p>
+                    El DropdownMenu es como un contenedor que se abre abajo (creo que también se puede especificar donde)
+                    pero te inhabilita el botón medio raro 
+                </p>
             </section>
             <section className="w-1/2">
                 <ComboboxDemo />
