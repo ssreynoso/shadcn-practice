@@ -4,77 +4,73 @@
 
 @layer base {
     :root {
-        --background: 0 0% 100%;
-        --foreground: 222.2 84% 4.9%;
+        --background: rgb(255, 255, 255);
+        --foreground: rgb(2, 8, 23);
 
-        --card: 0 0% 100%;
-        --card-foreground: 222.2 84% 4.9%;
+        --card: rgb(255, 255, 255);
+        --card-foreground: rgb(2, 8, 23);
 
-        --popover: 0 0% 100%;
-        --popover-foreground: 222.2 84% 4.9%;
+        --popover: rgb(255, 255, 255);
+        --popover-foreground: rgb(2, 8, 23);
 
-        --primary: 222.2 47.4% 11.2%;
-        --primary-foreground: 210 40% 98%;
+        --primary: rgb(15, 23, 42);
+        --primary-foreground: rgb(248, 250, 252);
 
-        --secondary: 210 40% 96.1%;
-        --secondary-foreground: 222.2 47.4% 11.2%;
+        --secondary: rgb(241, 245, 249);
+        --secondary-foreground: rgb(15, 23, 42);
 
-        --muted: 210 40% 96.1%;
-        --muted-foreground: 215.4 16.3% 46.9%;
+        --muted: rgb(241, 245, 249);
+        --muted-foreground: rgb(100, 116, 139);
 
-        --accent: 210 40% 96.1%;
-        --accent-foreground: 222.2 47.4% 11.2%;
+        --accent: rgb(241, 245, 249);
+        --accent-foreground: rgb(15, 23, 42);
 
-        --destructive: 0 84.2% 60.2%;
-        --destructive-foreground: 210 40% 98%;
+        --destructive: rgb(239, 68, 68);
+        --destructive-foreground: rgb(248, 250, 252);
 
-        --border: 214.3 31.8% 91.4%;
-        --input: 214.3 31.8% 91.4%;
-        --ring: 222.2 84% 4.9%;
+        --border: rgb(226, 232, 240);
+        --input: rgb(226, 232, 240);
+        --ring: rgb(2, 8, 23);
 
         --radius: 0.5rem;
 
-        /* hsl(38 92% 50%) */
-        --warning: 38 92% 50%;
-        /* hsl(48 96% 89%) */
-        --warning-foreground: 48 96% 89%;
+        --warning: rgb(245, 159, 10);
+        --warning-foreground: rgb(254, 243, 200);
     }
 
     .dark {
         /*  */
-        --background: 222.2 84% 4.9%;
-        --foreground: 210 40% 98%;
+        --background: rgb(2, 8, 23);
+        --foreground: rgb(248, 250, 252);
 
-        --card: 222.2 84% 4.9%;
-        --card-foreground: 210 40% 98%;
+        --card: rgb(2, 8, 23);
+        --card-foreground: rgb(248, 250, 252);
 
-        --popover: 222.2 84% 4.9%;
-        --popover-foreground: 210 40% 98%;
+        --popover: rgb(2, 8, 23);
+        --popover-foreground: rgb(248, 250, 252);
 
-        --primary: 210 40% 98%;
-        --primary-foreground: 222.2 47.4% 11.2%;
+        --primary: rgb(248, 250, 252);
+        --primary-foreground: rgb(15, 23, 42);
 
-        --secondary: 217.2 32.6% 17.5%;
-        --secondary-foreground: 210 40% 98%;
+        --secondary: rgb(30, 41, 59);
+        --secondary-foreground: rgb(248, 250, 252);
 
-        --muted: 217.2 32.6% 17.5%;
-        --muted-foreground: 215 20.2% 65.1%;
+        --muted: rgb(30, 41, 59);
+        --muted-foreground: rgb(148, 163, 184);
 
-        --accent: 217.2 32.6% 17.5%;
-        --accent-foreground: 210 40% 98%;
+        --accent: rgb(30, 41, 59);
+        --accent-foreground: rgb(248, 250, 252);
 
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 210 40% 98%;
+        --destructive: rgb(127, 29, 29);
+        --destructive-foreground: rgb(248, 250, 252);
 
-        --border: 217.2 32.6% 17.5%;
-        --input: 217.2 32.6% 17.5%;
-        --ring: 212.7 26.8% 83.9%;
+        --border: rgb(30, 41, 59);
+        --input: rgb(30, 41, 59);
+        --ring: rgb(203, 213, 225);
 
 
-        /* hsl(48 96% 89%) */
-        --warning: 48 96% 89%;
-        /* hsl(38 92% 50%) */
-        --warning-foreground: 38 92% 50%;
+        --warning: rgb(254, 243, 200);
+        --warning-foreground: rgb(245, 159, 10);
     }
 }
 

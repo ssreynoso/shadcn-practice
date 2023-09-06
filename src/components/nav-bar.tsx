@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { ModeToggle } from '@/components/dark-mode-toggle-button'
 import { cn } from '@/lib/utils'
+import { ChangeTheme } from './change-theme'
 
 const NavBarItem = (props: { value: string, label: string }) => {
     const pathname = usePathname()
@@ -106,13 +107,16 @@ export const NavBar = () => {
             </div>
             <ul
                 ref={navList}
-                className='max-w-screen-md flex gap-3 p-2 overflow-x-auto pretty-scrollbar-x scroll-smooth'
+                className='max-w-[65%] flex gap-3 p-2 overflow-x-auto pretty-scrollbar-x scroll-smooth'
             >
                 {elements.map(el => (
                     <NavBarItem key={el.value} value={el.value} label={el.label} />
                 ))}
             </ul>
-            <ModeToggle />
+            <div className='flex gap-2'>
+                <ModeToggle />
+                <ChangeTheme />
+            </div>
         </nav>
     )
 }
