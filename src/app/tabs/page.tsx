@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
-export function TabsDemo() {
+function TabsDemo() {
     return (
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList className="grid w-full grid-cols-2">

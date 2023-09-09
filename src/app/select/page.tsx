@@ -17,7 +17,7 @@ const FormSchema = z.object({
 
 type FormSchemaType = z.infer<typeof FormSchema>
 
-export function SelectDemo() {
+function SelectDemo() {
     return (
         <Select>
             <SelectTrigger className="w-[180px]">
@@ -37,7 +37,7 @@ export function SelectDemo() {
     )
 }
 
-export function SelectForm() {
+function SelectForm() {
     const form = useForm<FormSchemaType>({
         resolver: zodResolver(FormSchema),
     })

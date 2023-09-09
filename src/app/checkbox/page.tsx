@@ -12,7 +12,7 @@ const FormSchema = z.object({
     mobile: z.boolean().default(false).optional(),
 })
 
-export function CheckboxReactHookFormSingle() {
+function CheckboxReactHookFormSingle() {
     type FormSchemaType = z.infer<typeof FormSchema>
     const form = useForm<FormSchemaType>({
         resolver: zodResolver(FormSchema),
